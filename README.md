@@ -12,10 +12,23 @@ You can copy the CircleLoader.java (in the library module) and the attrs.xml
 content into your project. Or you can get the binaries from Maven central by
 adding in your build.gradle dependencies:
 
+#### Step 1
+
 ```
-implementation 'com.pnikosis:materialish-progress:1.7'
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 ```
 
+#### Step 2
+```
+dependencies {
+        implementation 'com.github.MickaelCalatr:CircleLoading:1.0'
+}
+```
 ## Usage
 You can create your own CircleLoader in xml like this
 (remeber to add xmlns:app="http://schemas.android.com/apk/res-auto"):

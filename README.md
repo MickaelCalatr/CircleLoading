@@ -26,7 +26,7 @@ allprojects {
 ```
 
 ### Step 2
-```
+```gradle
 dependencies {
         implementation 'com.github.MickaelCalatr:CircleLoading:1.0'
 }
@@ -35,7 +35,7 @@ dependencies {
 You can create your own CircleLoader in xml like this
 (remember to add xmlns:app="http://schemas.android.com/apk/res-auto"):
 
-```
+```xml
     <com.mickael.circleloading.CircleLoaderView
         android:id="@+id/loading_circle"
         android:layout_width="match_parent"
@@ -50,25 +50,25 @@ You can create your own CircleLoader in xml like this
 ```
 
 To start the loading you can use:
-```
+```java
 CircleLoaderView loadingView = (CircleLoaderView) findViewById(R.id.loading_circle);
 loadingView.startLoading();
 ```
  and to stop the loading use:
-```
+```java
 loadingView.stopLoading();
 ```
 
 ## Other options
 In the xml definition, besides the property, you can set:
--		image_loader: reference, set a new image in the loader.
--		image_width: dimension, set the image width.
--		image_height: dimension, set the image height.
--		background_font: reference | color, set an image or a color to the background
--		background_alpha: float, set the alpha maximum to the alpha transition (0 to don't use it).
--		rotate_duration: integer, set the rotation duration.
--		translate_duration: intege, set the translation duration.
--		fadeInOut_duration: integer, set the fade in and fade out animation duration.
+-	image_loader: reference, set a new image in the loader.
+-	image_width: dimension, set the image width.
+-	image_height: dimension, set the image height.
+-	background_font: reference | color, set an image or a color to the background
+-	background_alpha: float, set the alpha maximum to the alpha transition (0 to don't use it).
+-	rotate_duration: integer, set the rotation duration.
+-	translate_duration: integer, set the translation duration.
+-	fadeInOut_duration: integer, set the fade in and fade out animation duration.
 
 ## Version
 

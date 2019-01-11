@@ -159,7 +159,9 @@ public class CircleLoaderView extends FrameLayout {
         animation.setDuration(this.translateDuration);
         animation.addListener(new Animator.AnimatorListener() {
             @Override
-            public void onAnimationStart(Animator animation) { }
+            public void onAnimationStart(Animator animation) {
+                // Not Used
+            }
             @Override
             public void onAnimationEnd(Animator animation) {
                 translator.setVisibility(GONE);
@@ -168,9 +170,13 @@ public class CircleLoaderView extends FrameLayout {
                 image.setAnimation(null);
             }
             @Override
-            public void onAnimationCancel(Animator animation) { }
+            public void onAnimationCancel(Animator animation) {
+                // Not Used
+            }
             @Override
-            public void onAnimationRepeat(Animator animation) { }
+            public void onAnimationRepeat(Animator animation) {
+                // Not Used
+            }
         });
         animation.start();
     }
@@ -185,7 +191,7 @@ public class CircleLoaderView extends FrameLayout {
         alphaAnimation.addListener(new Animator.AnimatorListener() {
             @Override
             public void onAnimationStart(Animator animation) {
-
+                // Not Used
             }
 
             @Override
@@ -195,12 +201,12 @@ public class CircleLoaderView extends FrameLayout {
 
             @Override
             public void onAnimationCancel(Animator animation) {
-
+                // Not Used
             }
 
             @Override
             public void onAnimationRepeat(Animator animation) {
-
+                // Not Used
             }
         });
         alphaAnimation.start();

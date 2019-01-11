@@ -14,7 +14,7 @@ You can copy the CircleLoader.java (in the library module) and the attrs.xml
 content into your project. Or you can get the binaries from Maven central by
 adding in your build.gradle dependencies:
 
-### Step 1
+#### Step 1
 
 ```
 allprojects {
@@ -25,7 +25,7 @@ allprojects {
 	}
 ```
 
-### Step 2
+#### Step 2
 ```
 dependencies {
         implementation 'com.github.MickaelCalatr:CircleLoading:1.0'
@@ -62,19 +62,19 @@ loadingView.stopLoading();
 
 ## Other options
 In the xml definition, besides the property, you can set:
-- __image_loader:__ *reference*, set a new image in the loader.
-- __image_width:__ *dimension*, set the image width.
-- __image_height:__ *dimension*, set the image height.
-- __background_font:__ *reference | color*, set an image or a color to the background
-- __background_alpha:__ *float*, set the alpha maximum to the alpha transition (0 to
+- image_loader: reference, set a new image in the loader.
+- image_width: dimension, set the image width.
+- image_height: dimension, set the image height.
+- background_font: reference | color, set an image or a color to the background
+- background_alpha: float, set the alpha maximum to the alpha transition (0 to
 don't use it).
-- __rotate_duration:__ *integer*, set the rotation duration.
-- __translate_duration:__ *integer*, set the translation duration.
-- __fadeInOut_duration:__ *integer*, set the fade in and fade out animation duration.
+- rotate_duration: integer, set the rotation duration.
+- translate_duration: intege, set the translation duration.
+- fadeInOut_duration: integer, set the fade in and fade out animation duration.
 
 ## Version
-<!--
-- 1.1 Adding function to change options programmatically -->
+
+- 1.1 Adding function to change options programmatically
 - 1.0 Initial release
 
 ## Special thanks

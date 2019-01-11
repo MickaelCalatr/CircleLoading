@@ -4,6 +4,7 @@ import android.animation.Animator;
 import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
@@ -71,6 +72,7 @@ public class CircleLoaderView extends FrameLayout {
         super(context, attrs, defStyleAttr);
         initialise(context, attrs);
     }
+
 
 
     /**
@@ -238,5 +240,70 @@ public class CircleLoaderView extends FrameLayout {
             translateToRight();
             fadeOutAnimation();
         }
+    }
+
+
+    public float getMaxAlpha() {
+        return maxAlpha;
+    }
+
+    public void setMaxAlpha(float maxAlpha) {
+        this.maxAlpha = maxAlpha;
+    }
+
+    public ImageView getImage() {
+        return image;
+    }
+
+    public void setImage(Drawable image) {
+        this.image.setBackground(image);
+    }
+
+    public View getBackgroundRes() {
+        return background;
+    }
+
+    public void setBackground(Drawable background) {
+        this.background.setBackground(background);
+    }
+
+    public void setBackground(int color) {
+        this.background.setBackgroundColor(color);
+    }
+
+    public FrameLayout getTranslator() {
+        return translator;
+    }
+
+    public int getTranslateDuration() {
+        return translateDuration;
+    }
+
+    public void setTranslateDuration(int translateDuration) {
+        this.translateDuration = translateDuration;
+    }
+
+    public int getFadeInOutDuration() {
+        return fadeInOutDuration;
+    }
+
+    public void setFadeInOutDuration(int fadeInOutDuration) {
+        this.fadeInOutDuration = fadeInOutDuration;
+    }
+
+    public int getRotateDuration() {
+        return rotateDuration;
+    }
+
+    public void setRotateDuration(int rotateDuration) {
+        this.rotateDuration = rotateDuration;
+    }
+
+    public RotateAnimation getRotate() {
+        return rotate;
+    }
+
+    public void setRotate(RotateAnimation rotate) {
+        this.rotate = rotate;
     }
 }

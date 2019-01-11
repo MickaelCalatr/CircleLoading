@@ -1,4 +1,6 @@
 # CircleLoader
+[![](https://jitpack.io/v/MickaelCalatr/CircleLoading.svg)](https://jitpack.io/#MickaelCalatr/CircleLoading)
+
 This is a simple circle loader library for android API 21+.
 
 I needed to create a progress wheel on sport theme. So I created this.
@@ -7,12 +9,12 @@ This is how it looks in standard mode but you can configure it as you want.
 
 ![]demo.gif
 
-## Download
+## Dependency
 You can copy the CircleLoader.java (in the library module) and the attrs.xml
 content into your project. Or you can get the binaries from Maven central by
 adding in your build.gradle dependencies:
 
-#### Step 1
+### Step 1
 
 ```
 allprojects {
@@ -23,7 +25,7 @@ allprojects {
 	}
 ```
 
-#### Step 2
+### Step 2
 ```
 dependencies {
         implementation 'com.github.MickaelCalatr:CircleLoading:1.0'
@@ -47,19 +49,32 @@ You can create your own CircleLoader in xml like this
         app:rotate_duration="900"/>
 ```
 
+To start the loading you can use:
+```
+CircleLoaderView loadingView = (CircleLoaderView) findViewById(R.id.loading_circle);
+loadingView.startLoading();
+```
+ and to stop the loading use:
+```
+loadingView.stopLoading();
+```
+
+
 ## Other options
 In the xml definition, besides the property, you can set:
-- image_loader: reference, set a new image in the loader.
-- image_width: dimension, set the image width.
-- image_height: dimension, set the image height.
-- background_font: reference | color, set an image or a color to the background
-- background_alpha: float, set the alpha maximum to the alpha transition (0 to
+- __image_loader:__ *reference*, set a new image in the loader.
+- __image_width:__ *dimension*, set the image width.
+- __image_height:__ *dimension*, set the image height.
+- __background_font:__ *reference | color*, set an image or a color to the background
+- __background_alpha:__ *float*, set the alpha maximum to the alpha transition (0 to
 don't use it).
-- rotate_duration: integer, set the rotation duration.
-- translate_duration: intege, set the translation duration.
-- fadeInOut_duration: integer, set the fade in and fade out animation duration.
+- __rotate_duration:__ *integer*, set the rotation duration.
+- __translate_duration:__ *integer*, set the translation duration.
+- __fadeInOut_duration:__ *integer*, set the fade in and fade out animation duration.
 
 ## Version
+<!--
+- 1.1 Adding function to change options programmatically -->
 - 1.0 Initial release
 
 ## Special thanks

@@ -1,4 +1,5 @@
 # CircleLoader
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5a84b6076d3646e092823e269c3c1685)](https://app.codacy.com/app/MickaelCalatr/CircleLoading?utm_source=github.com&utm_medium=referral&utm_content=MickaelCalatr/CircleLoading&utm_campaign=Badge_Grade_Dashboard)
 [![](https://jitpack.io/v/MickaelCalatr/CircleLoading.svg)](https://jitpack.io/#MickaelCalatr/CircleLoading)
 
 This is a simple circle loader library for android API 21+.

@@ -32,8 +32,7 @@ dependencies {
 }
 ```
 ## Usage
-You can create your own CircleLoader in xml like this
-(remember to add xmlns:app="http://schemas.android.com/apk/res-auto"):
+You can create your own CircleLoader in xml like this;
 
 ```xml
     <com.mickael.circleloading.CircleLoaderView
@@ -89,14 +88,14 @@ loadingView.setRotate(RotateAnimation rotate)
 ## Other options
 In the xml definition, besides the property, you can set:
 
-- image_loader (reference) set a new image in the loader
-- image_width (dimension) set the image width
--	image_height (dimension) set the image height
--	background_font (reference or color) set an image or a color to the background
--	background_alpha (float) set the alpha maximum to the alpha transition (0 to don't use it)
--	rotate_duration (integer) set the rotation duration
--	translate_duration (integer) set the translation duration
--	fadeInOut_duration (integer) set the fade in and fade out animation duration
+-		image_loader (reference) set a new image in the loader
+- 	image_width (dimension) set the image width
+-		image_height (dimension) set the image height
+-		background_font (reference or color) set an image or a color to the background
+-		background_alpha (float) set the alpha maximum to the alpha transition (0 to don't use it)
+-		rotate_duration (integer) set the rotation duration
+-		translate_duration (integer) set the translation duration
+-		fadeInOut_duration (integer) set the fade in and fade out animation duration
 
 ## Version
 
@@ -109,7 +108,8 @@ from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="blank"> CC 3.0 BY</a>
 
 ## License
-```
+
+```license
 The MIT License (MIT)
 
 Copyright (c) 2019 Calatraba Mickael

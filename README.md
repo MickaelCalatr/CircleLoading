@@ -88,19 +88,19 @@ loadingView.setRotate(RotateAnimation rotate)
 ## Other options
 In the xml definition, besides the property, you can set:
 
--	  image_loader (reference) set a new image in the loader
+-   image_loader (reference) set a new image in the loader
 -   image_width (dimension) set the image width
 -   image_height (dimension) set the image height
 -   background_font (reference or color) set an image or a color to the background
--  background_alpha (float) set the alpha maximum to the alpha transition (0 to don't use it)
--  rotate_duration (integer) set the rotation duration
--  translate_duration (integer) set the translation duration
--  fadeInOut_duration (integer) set the fade in and fade out animation duration
+-   background_alpha (float) set the alpha maximum to the alpha transition (0 to don't use it)
+-   rotate_duration (integer) set the rotation duration
+-   translate_duration (integer) set the translation duration
+-   fadeInOut_duration (integer) set the fade in and fade out animation duration
 
 ## Version
 
--  1.1 Adding function to change options programmatically
--  1.0 Initial release
+-   1.1 Adding function to change options programmatically
+-   1.0 Initial release
 
 ## Special thanks
 Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a>

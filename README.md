@@ -8,9 +8,9 @@ I needed to create a progress wheel on sport theme. So I created this.
 
 This is how it looks in standard mode but you can configure it as you want.
 
-![](assets/soccer_demo.gif)
-![](assets/bowling_demo.gif)
-![](assets/car_demo.gif)
+![Soccer Demo](assets/soccer_demo.gif){:height="200px" width="200px"}
+![Bowling Demo](assets/bowling_demo.gif =200x20){:height="200px" width="200px"}
+![Car Demo](assets/car_demo.gif =200x20){:height="200px" width="200px"}
 
 ## Dependency
 Just and this line in your dependencies project.

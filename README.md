@@ -1,16 +1,14 @@
 # CircleLoader
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5a84b6076d3646e092823e269c3c1685)](https://app.codacy.com/app/MickaelCalatr/CircleLoading?utm_source=github.com&utm_medium=referral&utm_content=MickaelCalatr/CircleLoading&utm_campaign=Badge_Grade_Dashboard)
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/741c49ce40a24b508f327cf2857a1003)](https://www.codacy.com/app/MickaelCalatr/SportLoader?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MickaelCalatr/SportLoader&amp;utm_campaign=Badge_Grade)
 
 This is a simple circle loader library for android API 21+.
-
 I needed to create a progress wheel on sport theme. So I created this.
 
 This is how it looks in standard mode but you can configure it as you want.
 
-![Soccer Demo](assets/soccer_demo.gif){:height="200px" width="200px"}
-![Bowling Demo](assets/bowling_demo.gif =200x20){:height="200px" width="200px"}
-![Car Demo](assets/car_demo.gif =200x20){:height="200px" width="200px"}
+<img src="assets/soccer_demo.gif" width="29%"/>
+<img src="assets/bowling_demo.gif" width="27%"/>
+<img src="assets/car_demo.gif" width="28%"/>
 
 ## Dependency
 Just and this line in your dependencies project.

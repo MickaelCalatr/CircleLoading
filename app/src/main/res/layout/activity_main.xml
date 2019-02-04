@@ -6,27 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.mickael.circleloading.CircleLoaderView
+    <com.mickael.sportloadingview.SportLoadingView
         android:id="@+id/loading_circle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:background="@color/color_loader"
         app:background_alpha="0.7"
-        app:image_height="200dp"
-        app:image_width="200dp"
-        app:image_loader="@drawable/bowling_ball_1"
-        app:fadeInOut_duration="500"
+        app:image_height="100dp"
+        app:image_width="100dp"
+        app:image_loader="@drawable/car"
+        app:fadeInOut_duration="700"
         app:rotate_duration="900"/>
 
     <Button
         android:id="@+id/button_start"
-        android:layout_width="300dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="START LOADING"/>
 
     <Button
         android:id="@+id/button_stop"
-        android:layout_width="300dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="STOP LOADING"/>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SportLoadingView">
+        <attr name="image_loader" format="reference"/>
+        <attr name="image_width" format="dimension"/>
+        <attr name="image_height" format="dimension"/>
+        <attr name="background_font" format="reference|color"/>
+        <attr name="background_alpha" format="float"/>
+        <attr name="rotate_duration" format="integer"/>
+        <attr name="translate_duration" format="integer"/>
+        <attr name="fadeInOut_duration" format="integer"/>
+    </declare-styleable>
+</resources>

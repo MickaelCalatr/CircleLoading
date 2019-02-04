@@ -1,6 +1,6 @@
 # CircleLoader
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5a84b6076d3646e092823e269c3c1685)](https://app.codacy.com/app/MickaelCalatr/CircleLoading?utm_source=github.com&utm_medium=referral&utm_content=MickaelCalatr/CircleLoading&utm_campaign=Badge_Grade_Dashboard)
-[![](https://jitpack.io/v/MickaelCalatr/CircleLoading.svg)](https://jitpack.io/#MickaelCalatr/CircleLoading)
+
 
 This is a simple circle loader library for android API 21+.
 
@@ -8,25 +8,12 @@ I needed to create a progress wheel on sport theme. So I created this.
 
 This is how it looks in standard mode but you can configure it as you want.
 
-![]demo.gif
+![](assets/soccer_demo.gif)
+![](assets/bowling_demo.gif)
+![](assets/car_demo.gif)
 
 ## Dependency
-You can copy the CircleLoader.java (in the library module) and the attrs.xml
-content into your project. Or you can get the binaries from Maven central by
-adding in your build.gradle dependencies:
-
-### Step 1
-
-```gradle
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-```
-
-### Step 2
+Just and this line in your dependencies project.
 ```gradle
 dependencies {
         implementation 'com.github.MickaelCalatr:CircleLoading:1.0'
@@ -44,7 +31,7 @@ You can create your own CircleLoader in xml like this;
         app:background_alpha="0.7"
         app:image_height="200dp"
         app:image_width="200dp"
-        app:image_loader="@drawable/bowling_ball_1"
+        app:image_loader="@drawable/bowling_ball"
         app:fadeInOut_duration="500"
         app:rotate_duration="900"/>
 ```
@@ -61,28 +48,20 @@ loadingView.stopLoading();
 
 You can also change all variables programmatically using getter and setter.
 ```java
-loadingView.getMaxAlpha()
 loadingView.setMaxAlpha(float maxAlpha)
 
-loadingView.getImage()
 loadingView.setImage(Drawable image)
 
-loadingView.getBackgroundRes()
 loadingView.setBackground(Drawable background)
 
 loadingView.setBackground(int color)
-loadingView.getTranslator()
 
-loadingView.getTranslateDuration()
 loadingView.setTranslateDuration(int translateDuration)
 
-loadingView.getFadeInOutDuration()
 loadingView.setFadeInOutDuration(int fadeInOutDuration)
 
-loadingView.getRotateDuration()
 loadingView.setRotateDuration(int rotateDuration)
 
-loadingView.getRotate()
 loadingView.setRotate(RotateAnimation rotate)
 ```
 
@@ -100,6 +79,7 @@ In the xml definition, besides the property, you can set:
 
 ## Version
 
+-   1.2 Change repository name, push the library on maven and add javadoc.
 -   1.1 Adding function to change options programmatically
 -   1.0 Initial release
 

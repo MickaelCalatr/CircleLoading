@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.mickael.circleloading.CircleLoaderView;
+import com.mickael.sportloadingview.SportLoadingView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Initialisation of the Circle Loading
-        final CircleLoaderView loader = (CircleLoaderView) findViewById(R.id.loading_circle);
+        final SportLoadingView loader = (SportLoadingView) findViewById(R.id.loading_circle);
 
         // Button used to start the loading
         final Button buttonStart = findViewById(R.id.button_start);

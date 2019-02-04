@@ -1,7 +1,8 @@
 # CircleLoader
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/741c49ce40a24b508f327cf2857a1003)](https://www.codacy.com/app/MickaelCalatr/SportLoader?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MickaelCalatr/SportLoader&amp;utm_campaign=Badge_Grade)
+[![](https://img.shields.io/github/license/MickaelCalatr/CircleLoader.svg?style=flat)](https://opensource.org/licenses/MIT)
 
-This is a simple circle loader library for android API 21+.
+This is a simple loader library on sport theme for android API 21+.
 I needed to create a progress wheel on sport theme. So I created this.
 
 This is how it looks in standard mode but you can configure it as you want.
@@ -18,10 +19,10 @@ dependencies {
 }
 ```
 ## Usage
-You can create your own CircleLoader in xml like this;
+You can create your own SportLoadingView in xml like this.
 
 ```xml
-    <com.mickael.circleloading.CircleLoaderView
+    <com.mickael.sportloadingview.SportLoadingView
         android:id="@+id/loading_circle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -36,7 +37,7 @@ You can create your own CircleLoader in xml like this;
 
 To start the loading you can use:
 ```java
-CircleLoaderView loadingView = (CircleLoaderView) findViewById(R.id.loading_circle);
+SportLoadingView loadingView = (CircleLoaderView) findViewById(R.id.loading_circle);
 loadingView.startLoading();
 ```
  and to stop the loading use:

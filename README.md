@@ -16,7 +16,7 @@ This is how it looks in standard mode but you can configure it as you want.
 Just and this line in your dependencies project.
 ```gradle
 dependencies {
-        implementation 'com.github.MickaelCalatr:CircleLoading:1.0'
+        implementation 'com.mickaelcalatr:sportloadingview:1.2.0'
 }
 ```
 ## Usage

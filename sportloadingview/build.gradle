@@ -36,8 +36,8 @@ dependencies {
 }
 
 ext {
-    bintrayRepo = 'Maven'
-    bintrayName = 'Sport_Loader'
+    bintrayRepo = 'Sport_Loader'
+    bintrayName = 'SportLoader'
 
     publishedGroupId = 'com.mickaelcalatr'
     libraryName = 'SportLoadingView'

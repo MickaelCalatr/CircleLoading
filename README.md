@@ -1,7 +1,7 @@
-# CircleLoader
+# Sport Loader
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/741c49ce40a24b508f327cf2857a1003)](https://www.codacy.com/app/MickaelCalatr/SportLoader?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MickaelCalatr/SportLoader&amp;utm_campaign=Badge_Grade)
 [![](https://img.shields.io/github/license/MickaelCalatr/CircleLoader.svg?style=flat)](https://opensource.org/licenses/MIT)
-[![Download](https://api.bintray.com/packages/calatr/Sport_Loader/SportLoader/images/download.svg)](https://bintray.com/calatr/Sport_Loader/SportLoader/_latestVersion)
+[![Download](https://api.bintray.com/packages/calatr/Sport_Loader/SportLoader/images/download.svg?version=1.2.0)](https://bintray.com/calatr/Sport_Loader/SportLoader/1.2.0/link)
 
 This is a simple loader library on sport theme for android API 21+.
 I needed to create a progress wheel on sport theme. So I created this.
